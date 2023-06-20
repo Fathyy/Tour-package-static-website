@@ -123,8 +123,11 @@ width: 80%;
     text-align: center;
     font-size: 36px;
     margin-bottom: 0;
-    color: #845EC2;
+    color: black;
     font-family: 'Playfair Display', serif;
+}
+.trip{
+    color: #845EC2;
 }
 .col p{
     text-align: justify;
@@ -161,4 +164,29 @@ width: 80%;
 .view-more a, .fourth{
     color: #0a0211;
 }
-
+/* footer */
+.last-section{
+    background-color: #B39CD0;
+    color: white;
+}
+.wrapper{
+    display: flex;
+    color: #0a0211;
+    gap: 3rem;
+    margin-top: 3rem;
+    padding: 3rem;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.col-footer a{
+    color: #0a0211;
+}
+.footer-link:focus, .footer-link:hover{
+    color: #fff;
+}
+.footer-heading{
+    font-weight: 700;
+}
