@@ -183,12 +183,25 @@ width: 80%;
     font-weight: 700;
 }
 /* contact.html */
+.body-section{
+    margin-top: 0;
+}
 .contact-location{
-    margin-top: 3rem;
+    background-image: url("images/photo2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.background{
+    background-color: rgba(8, 0, 0, 0.6);
+}
+.wrapper{
+    margin: 0;
 }
 .contact, .location{
     background-color: #845EC2;
     padding: 2rem;
+    border-radius: 1rem;
 }
 .contact-heading{
     color: white;
@@ -196,9 +209,11 @@ width: 80%;
 .form-input{
     margin-bottom: 2rem;
 }
-input{
+input[type='text'], input[type='email'], textarea{
     width: 100%;
     padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
 }
 .location{
     color: white;
