@@ -138,7 +138,6 @@ width: 80%;
 .view-more{
     background-color: #00C9A7; 
     color: #0a0211;
-    font-weight: 700;
 }
 .view-more:hover, .view-more:focus{
     background-color: #845EC2;
@@ -218,7 +217,8 @@ input[type='text'], input[type='email'], textarea{
 
 /* media queries for small screens */
 @media (max-width:600px) {
-    .row, .roww, .wrapper{
+    /* index.html */
+    .row, .roww, .wrapper, .footer-links{
         display: block;
     }
     .col-fourth{
@@ -226,6 +226,10 @@ input[type='text'], input[type='email'], textarea{
     }
     .content{
         width: 100%;
+    }
+    /* Contact.html */
+    .location{
+        margin-top: 3rem;
     }
 }
 
