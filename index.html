@@ -11,23 +11,30 @@
 <body>
     <section class="first-section">
         <div class="container">
-            <div class="row">
-                <div class="logo-wrapper">
-                    <div class="logo">
-                        <img src="images\jani-logo__2.png" alt="">
+            <!-- toggle button for small screens -->
+            <div class="toggleRow">
+                <button class="nav-toggle" aria-label="open navigation">
+                    <span class="hamburger"></span>
+                </button>
+
+                <div class="row">
+                    <div class="logo-wrapper">
+                        <div class="logo">
+                            <img src="images\jani-logo__2.png" class="logo-image" alt="">
+                        </div>
                     </div>
-                </div>
-                
-                <div class="navbar">
-                    <ul class="nav nav-primary">
-                        <li ><a class="nav-list" href="index.html">Home</a></li>
-                        <li ><a class="nav-list" href="#">Products</a></li>
-                        <li ><a class="nav-list" href="#">About</a></li>
-                    </ul>
-                    <ul class="nav">
-                        <li ><a class="nav-list" href="#">Signup</a></li>
-                        <li ><a class="nav-list" href="#">Signin</a></li>
-                    </ul>
+                    
+                    <div class="navbar">
+                        <ul class="nav nav-primary">
+                            <li ><a class="nav-list" href="index.html">Home</a></li>
+                            <li ><a class="nav-list" href="#">Products</a></li>
+                            <li ><a class="nav-list" href="#">About</a></li>
+                        </ul>
+                        <ul class="nav nav-secondary">
+                            <li ><a class="nav-list" href="#">Signup</a></li>
+                            <li ><a class="nav-list" href="#">Signin</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -41,9 +48,7 @@
                                 <h1>Tour Package Management System</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra vitae libero ut accumsan. Fusce euismod suscipit nisi et vestibulum. Donec convallis dolor vel porta aliquet. Mauris in massa magna. </p>
                                 
-                                    <a href="#" class="button">View Packages</a>
-                               
-        
+                                    <a href="#" class="button packages-btn">View Packages</a>
                             </div>
                         </div>
                         
@@ -179,6 +184,6 @@
                 </div>
             </footer>
         
-    
+  <script src="script.js"></script>  
 </body>
 </html>
