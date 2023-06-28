@@ -9,25 +9,17 @@ body{
   padding:0;
   font-family: 'Roboto', sans-serif;
 }
-/* h1{
-    font-size: 2em;
-}
-h2{
-    font-size: 1.5em;
-}
-h3{
-    font-size: 1.3em;
-} */
 h3, h2, h1{
     margin-top: 0;
 }
 .first-section{
     background-color:#F6EBFF;
+    max-width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  } 
 .container{
     margin: 0 auto;
-    max-width: 960px;
+    width: 80%;
 }
 .row{
   display:flex;
@@ -73,7 +65,7 @@ h3, h2, h1{
 }
 /* second section begins */
 .second-section{
-    background-image: url("images/image01.jpg");
+    background-image: url("images/train.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -173,6 +165,9 @@ h3, h2, h1{
     margin-top: 3rem;
     padding: 3rem 0;
 }
+.footer-logo{
+    width: 50%;
+}
 .footer-links{
     display: flex;
     justify-content: space-between;
@@ -190,6 +185,7 @@ h3, h2, h1{
 .footer-heading{
     font-weight: 700;
 }
+
 /* contact.html */
 .body-section{
     margin-top: 0;
@@ -237,9 +233,7 @@ input[type='text'], input[type='email'], textarea{
     .row, .roww, .wrapper, .footer-links{
         display: block;
     }
-    .container{
-        max-width: 500px;
-    }
+    
     .col-fourth{
         margin-bottom: 2rem;
     }
