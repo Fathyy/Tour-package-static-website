@@ -11,23 +11,30 @@
 <body>
     <section class="first-section">
         <div class="container">
-            <div class="row">
-                <div class="logo-wrapper">
-                    <div class="logo">
-                        <img src="images\jani-logo__2.png" alt="">
+            <!-- toggle button for small screens -->
+            <div class="toggleRow">
+                <button class="nav-toggle" aria-label="open navigation">
+                    <span class="hamburger"></span>
+                </button>
+
+                <div class="row">
+                    <div class="logo-wrapper">
+                        <div class="logo">
+                            <img src="images\myLogo.png" class="logo-image" alt="">
+                        </div>
                     </div>
-                </div>
-                
-                <div class="navbar">
-                    <ul class="nav nav-primary">
-                        <li ><a class="nav-list" href="index.html">Home</a></li>
-                        <li ><a class="nav-list" href="#">Products</a></li>
-                        <li ><a class="nav-list" href="#">About us</a></li>
-                    </ul>
-                    <ul class="nav">
-                        <li ><a class="nav-list" href="#">Signup</a></li>
-                        <li ><a class="nav-list" href="#">Signin</a></li>
-                    </ul>
+                    
+                    <div class="navbar">
+                        <ul class="nav nav-primary">
+                            <li ><a class="nav-list" href="index.html">Home</a></li>
+                            <li ><a class="nav-list" href="#">Products</a></li>
+                            <li ><a class="nav-list" href="#">About</a></li>
+                        </ul>
+                        <ul class="nav nav-secondary">
+                            <li ><a class="nav-list" href="#">Signup</a></li>
+                            <li ><a class="nav-list" href="#">Signin</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -98,7 +105,7 @@
                 <div class="footer-description">
                     <div class="logo-wrapper">
                         <div class="logo">
-                            <img src="images\jani-logo__2.png" alt="">
+                            <img src="images\myLogo.png" alt="" class="footer-logo">
                         </div>
                     </div>
                     <p class="footer-heading">Lorem, ipsum.</p>
@@ -130,6 +137,7 @@
 
         </div>
     </footer>
-    
+
+    <script src="script.js"></script> 
 </body>
 </html>

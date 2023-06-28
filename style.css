@@ -47,6 +47,7 @@ h3, h2, h1{
   width: 100%;
   visibility: visible;
   position: relative;
+  color: #845EC2;
 }
 .nav{
     display: flex;
